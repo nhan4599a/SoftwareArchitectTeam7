@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SoftwareArchitect.iml" filepath="$PROJECT_DIR$/.idea/SoftwareArchitect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway/.mvn/wrapper/wrapper (1).iml" filepath="$PROJECT_DIR$/Gateway/.mvn/wrapper/wrapper (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Server/.mvn/wrapper/wrapper (2).iml" filepath="$PROJECT_DIR$/Server/.mvn/wrapper/wrapper (2).iml" />
     </modules>
   </component>
 </project>
