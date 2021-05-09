@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/ABCGarage/pom.xml" />
         <option value="$PROJECT_DIR$/DEFGarage/pom.xml" />
+        <option value="$PROJECT_DIR$/Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Gateway/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,17 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ABCGarage" />
         <module name="DEFGarage" />
+        <module name="Server" />
+        <module name="Gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ABCGarage" target="11" />
       <module name="DEFGarage" target="11" />
+      <module name="Gateway" target="11" />
+      <module name="Server" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ABCGarage" options="-parameters" />
       <module name="DEFGarage" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Server" options="-parameters" />
     </option>
   </component>
 </project>
