@@ -6,34 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ABCGarage" />
+        <module name="ABC-Garage-Server" />
+        <module name="server" />
         <module name="DEFGarage" />
-        <module name="Server" />
+        <module name="ABC-Garage-Gateway" />
         <module name="Gateway" />
-      </profile>
-      <profile name="Annotation profile for Unknown" enabled="true">
-        <sourceOutputDir name="../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="wrapper (2)" />
-        <module name="wrapper (1)" />
+        <module name="ABC-Garage-Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ABCGarage" target="11" />
-      <module name="DEFGarage" target="11" />
-      <module name="Gateway" target="11" />
-      <module name="Server" target="11" />
-      <module name="wrapper (1)" target="1.5" />
-      <module name="wrapper (2)" target="1.5" />
+      <module name="ABC-Garage-Gateway" target="1.8" />
+      <module name="ABC-Garage-Server" target="1.8" />
+      <module name="ABC-Garage-Service" target="1.8" />
+      <module name="DEFGarage" target="1.5" />
+      <module name="Gateway" target="1.5" />
+      <module name="server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ABCGarage" options="-parameters" />
-      <module name="DEFGarage" options="-parameters" />
-      <module name="Gateway" options="-parameters" />
-      <module name="Server" options="-parameters" />
+      <module name="ABC-Garage-Gateway" options="-parameters" />
+      <module name="ABC-Garage-Server" options="-parameters" />
+      <module name="ABC-Garage-Service" options="-parameters" />
+      <module name="server" options="-parameters" />
     </option>
   </component>
 </project>
