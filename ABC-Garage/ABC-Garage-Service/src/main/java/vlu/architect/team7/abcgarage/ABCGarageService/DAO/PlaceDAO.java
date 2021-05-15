@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import vlu.architect.team7.abcgarage.ABCGarageService.Model.Place;
 
 @Repository
-public interface PlaceDAO extends CrudRepository<String, Place> {
+public interface PlaceDAO extends CrudRepository<Place, String> {
 }

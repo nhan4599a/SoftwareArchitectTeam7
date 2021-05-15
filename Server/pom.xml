@@ -8,10 +8,10 @@
         <version>2.1.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>io.github.tubean.eureka</groupId>
-    <artifactId>server</artifactId>
+    <groupId>vlu.architect.team7</groupId>
+    <artifactId>Server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>server</name>
+    <name>Server</name>
     <description>Demo MSA project for Spring Boot with Eureka server</description>
 
     <properties>

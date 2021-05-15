@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import vlu.architect.team7.abcgarage.ABCGarageService.Model.BusTrain;
 
 @Repository
-public interface BusTrainDAO extends PagingAndSortingRepository<Integer, BusTrain> {
+public interface BusTrainDAO extends PagingAndSortingRepository<BusTrain, Integer> {
 }

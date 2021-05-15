@@ -7,8 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/ABC-Garage/ABC-Garage-Service/ABC-Garage-Service.iml" filepath="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Service/ABC-Garage-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/DEFGarage/DEFGarage.iml" filepath="$PROJECT_DIR$/DEFGarage/DEFGarage.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Search/Search.iml" filepath="$PROJECT_DIR$/Search/Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SoftwareArchitect.iml" filepath="$PROJECT_DIR$/.idea/SoftwareArchitect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Server/server.iml" filepath="$PROJECT_DIR$/Server/server.iml" />
     </modules>
   </component>
 </project>

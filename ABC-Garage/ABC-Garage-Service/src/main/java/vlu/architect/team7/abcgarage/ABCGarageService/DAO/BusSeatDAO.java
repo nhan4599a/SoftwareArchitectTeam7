@@ -6,5 +6,5 @@ import vlu.architect.team7.abcgarage.ABCGarageService.Model.BusSeat;
 import vlu.architect.team7.abcgarage.ABCGarageService.Model.CompositeBusSeatPK;
 
 @Repository
-public interface BusSeatDAO extends CrudRepository<CompositeBusSeatPK, BusSeat> {
+public interface BusSeatDAO extends CrudRepository<BusSeat, CompositeBusSeatPK> {
 }

@@ -9,6 +9,22 @@ import javax.persistence.Table;
 @Table(name = "Place")
 public final class Place {
 
+    public String getPlaceCode() {
+        return placeCode;
+    }
+
+    public void setPlaceCode(String placeCode) {
+        this.placeCode = placeCode;
+    }
+
+    public String getPlaceName() {
+        return placeName;
+    }
+
+    public void setPlaceName(String placeName) {
+        this.placeName = placeName;
+    }
+
     @Id
     @Column(name = "ID")
     private String placeCode;

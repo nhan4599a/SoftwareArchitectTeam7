@@ -8,11 +8,11 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>vlu.architect.team7.abcgarage</groupId>
-	<artifactId>ABC-Garage-Server</artifactId>
+	<groupId>vlu.architect.team7</groupId>
+	<artifactId>Search</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ABC-Garage-Server</name>
-	<description>Demo MSA project for Spring Boot with Eureka server</description>
+	<name>gallery service</name>
+	<description>Demo MSA project for Spring Boot with Eureka Client</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -25,7 +25,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>

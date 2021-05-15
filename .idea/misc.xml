@@ -3,12 +3,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/Search/pom.xml" />
+        <option value="$PROJECT_DIR$/Server/pom.xml" />
         <option value="$PROJECT_DIR$/Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/DEFGarage/pom.xml" />
         <option value="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Server/pom.xml" />
         <option value="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/Server/pom.xml" />
       </list>
     </option>
   </component>
