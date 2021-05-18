@@ -1,17 +1,19 @@
 package vlu.architect.team7.abc_garage_caller.Controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
-
-import java.util.List;
+import vlu.architect.team7.abc_garage_caller.Helper.RestAPICaller;
 
 @RestController
 public class MainController {
 
     @RequestMapping("/")
-    public List<Object> main() {
-        return null;
+    public String main() {
+        try {
+            RestAPICaller caller = new RestAPICaller("http://localhost:8101/");
+            return caller.get(null);
+        } catch (Exception e) {
+            return e.getMessage();
+        }
     }
 }
