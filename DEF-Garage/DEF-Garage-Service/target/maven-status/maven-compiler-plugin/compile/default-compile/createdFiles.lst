@@ -1,0 +1,16 @@
+vlu/architect/team7/def_garage/def_garage_service/Model/CompositeBusSeatPK.class
+vlu/architect/team7/def_garage/def_garage_service/DAO/BusTrainDAO.class
+vlu/architect/team7/def_garage/def_garage_service/Endpoint/BusTrainEndpoint.class
+vlu/architect/team7/def_garage/def_garage_service/Model/BusTrain.class
+vlu/architect/team7/def_garage/def_garage_service/WebServiceConfig.class
+vlu/architect/team7/def_garage/def_garage_service/soap/package-info.class
+vlu/architect/team7/def_garage/def_garage_service/soap/ObjectFactory.class
+vlu/architect/team7/def_garage/def_garage_service/soap/BusTrainDTO.class
+vlu/architect/team7/def_garage/def_garage_service/Model/BusSeat.class
+vlu/architect/team7/def_garage/def_garage_service/DAO/PlaceDAO.class
+vlu/architect/team7/def_garage/def_garage_service/soap/FindAllBusTrainResponse.class
+vlu/architect/team7/def_garage/def_garage_service/Model/Place.class
+vlu/architect/team7/def_garage/def_garage_service/DAO/BusSeatDAO.class
+vlu/architect/team7/def_garage/def_garage_service/DefGarageServiceApplication.class
+vlu/architect/team7/def_garage/def_garage_service/soap/FindAllBusTrainRequest.class
+vlu/architect/team7/def_garage/def_garage_service/RestTemplateConfig.class

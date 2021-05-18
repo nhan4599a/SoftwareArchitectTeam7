@@ -6,23 +6,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DEF-Garage-Service" />
         <module name="Server" />
         <module name="Gateway" />
         <module name="Search" />
         <module name="ABC-Garage-Service" />
         <module name="ABC-Garage-Server" />
-        <module name="DEFGarage" />
+        <module name="DEF-Garage-Gateway" />
+        <module name="ABC-Garage-Caller" />
         <module name="ABC-Garage-Gateway" />
+        <module name="DEF-Garage-Server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ABC-Garage-Gateway" target="1.5" />
-      <module name="ABC-Garage-Server" target="1.5" />
-      <module name="ABC-Garage-Service" target="1.5" />
-      <module name="DEFGarage" target="1.5" />
-      <module name="Gateway" target="1.5" />
-      <module name="Search" target="1.5" />
-      <module name="Server" target="1.5" />
+      <module name="ABC-Garage-Caller" target="1.8" />
+      <module name="ABC-Garage-Gateway" target="1.8" />
+      <module name="ABC-Garage-Server" target="1.8" />
+      <module name="ABC-Garage-Service" target="1.8" />
+      <module name="DEF-Garage-Gateway" target="1.8" />
+      <module name="DEF-Garage-Server" target="1.8" />
+      <module name="DEF-Garage-Service" target="1.8" />
+      <module name="Gateway" target="1.8" />
+      <module name="Search" target="1.8" />
+      <module name="Server" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ABC-Garage-Caller" options="-parameters" />
+      <module name="ABC-Garage-Gateway" options="-parameters" />
+      <module name="ABC-Garage-Server" options="-parameters" />
+      <module name="ABC-Garage-Service" options="-parameters" />
+      <module name="DEF-Garage-Gateway" options="-parameters" />
+      <module name="DEF-Garage-Server" options="-parameters" />
+      <module name="DEF-Garage-Service" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Search" options="-parameters" />
+      <module name="Server" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -8,7 +8,7 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>vlu.architect.team7.abcgarage</groupId>
+	<groupId>vlu.architect.team7.abc_garage</groupId>
 	<artifactId>ABC-Garage-Server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ABC-Garage-Server</name>
