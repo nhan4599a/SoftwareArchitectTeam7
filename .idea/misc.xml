@@ -6,12 +6,9 @@
         <option value="$PROJECT_DIR$/Search/pom.xml" />
         <option value="$PROJECT_DIR$/Server/pom.xml" />
         <option value="$PROJECT_DIR$/Gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Server/pom.xml" />
-        <option value="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/DEF-Garage/DEF-Garage-Server/pom.xml" />
-        <option value="$PROJECT_DIR$/DEF-Garage/DEF-Garage-Gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/DEF-Garage/DEF-Garage-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/DEF-Garage-Caller/pom.xml" />
+        <option value="$PROJECT_DIR$/ABC-Garage-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/DEF-Garage-Service/pom.xml" />
         <option value="$PROJECT_DIR$/ABC-Garage-Caller/pom.xml" />
       </list>
     </option>

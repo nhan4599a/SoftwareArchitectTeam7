@@ -3,12 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ABC-Garage-Caller/ABC-Garage-Caller.iml" filepath="$PROJECT_DIR$/ABC-Garage-Caller/ABC-Garage-Caller.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ABC-Garage/ABC-Garage-Gateway/ABC-Garage-Gateway.iml" filepath="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Gateway/ABC-Garage-Gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ABC-Garage/ABC-Garage-Server/ABC-Garage-Server.iml" filepath="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Server/ABC-Garage-Server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ABC-Garage/ABC-Garage-Service/ABC-Garage-Service.iml" filepath="$PROJECT_DIR$/ABC-Garage/ABC-Garage-Service/ABC-Garage-Service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DEF-Garage/DEF-Garage-Gateway/DEF-Garage-Gateway.iml" filepath="$PROJECT_DIR$/DEF-Garage/DEF-Garage-Gateway/DEF-Garage-Gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DEF-Garage/DEF-Garage-Server/DEF-Garage-Server.iml" filepath="$PROJECT_DIR$/DEF-Garage/DEF-Garage-Server/DEF-Garage-Server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DEF-Garage/DEF-Garage-Service/DEF-Garage-Service.iml" filepath="$PROJECT_DIR$/DEF-Garage/DEF-Garage-Service/DEF-Garage-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ABC-Garage-Service/ABC-Garage-Service.iml" filepath="$PROJECT_DIR$/ABC-Garage-Service/ABC-Garage-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DEF-Garage-Caller/DEF-Garage-Caller.iml" filepath="$PROJECT_DIR$/DEF-Garage-Caller/DEF-Garage-Caller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DEF-Garage-Service/DEF-Garage-Service.iml" filepath="$PROJECT_DIR$/DEF-Garage-Service/DEF-Garage-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/Search/Search.iml" filepath="$PROJECT_DIR$/Search/Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />

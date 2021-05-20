@@ -10,13 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>vlu.architect.team7</groupId>
-    <artifactId>ABC-Garage-Caller</artifactId>
+    <artifactId>DEF-Garage-Caller</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -30,6 +28,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <dependencyManagement>
