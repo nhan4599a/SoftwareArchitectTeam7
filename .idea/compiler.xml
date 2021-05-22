@@ -20,9 +20,9 @@
       <module name="ABC-Garage-Service" target="1.8" />
       <module name="DEF-Garage-Caller" target="1.8" />
       <module name="DEF-Garage-Service" target="1.8" />
-      <module name="Gateway" target="1.5" />
-      <module name="Search" target="1.5" />
-      <module name="Server" target="1.5" />
+      <module name="Gateway" target="1.8" />
+      <module name="Search" target="1.8" />
+      <module name="Server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +31,9 @@
       <module name="ABC-Garage-Service" options="-parameters" />
       <module name="DEF-Garage-Caller" options="-parameters" />
       <module name="DEF-Garage-Service" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Search" options="-parameters" />
+      <module name="Server" options="-parameters" />
     </option>
   </component>
 </project>

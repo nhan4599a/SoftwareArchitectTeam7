@@ -5,5 +5,8 @@
     <file url="file://$PROJECT_DIR$/ABC-Garage-Service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DEF-Garage-Caller/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DEF-Garage-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Server/src/main/java" charset="UTF-8" />
   </component>
 </project>

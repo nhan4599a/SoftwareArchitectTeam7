@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.concurrent.Executor;
@@ -16,7 +17,6 @@ import java.util.concurrent.Executor;
 @SpringBootApplication
 @EnableAsync
 @EnableEurekaClient
-@EnableCircuitBreaker
 public class SearchingServiceApplication {
 
 	public static void main(String[] args) {
@@ -28,9 +28,8 @@ public class SearchingServiceApplication {
 @Configuration
 class RestTemplateConfig {
 
-	// Create a bean for restTemplate to call services
 	@Bean
-	@LoadBalanced        // Load balance between service instances running at different ports.
+	@LoadBalanced
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
@@ -42,8 +41,8 @@ class AsyncConfiguration {
 	@Bean(name = "taskExecutor")
 	public Executor taskExecutor() {
 		final ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-		executor.setCorePoolSize(2);
-		executor.setMaxPoolSize(2);
+		executor.setCorePoolSize(10);
+		executor.setMaxPoolSize(100);
 		executor.setQueueCapacity(100);
 		executor.setThreadNamePrefix("SearchThread-");
 		executor.initialize();
