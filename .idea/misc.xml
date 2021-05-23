@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/ABC-Garage-Service/pom.xml" />
         <option value="$PROJECT_DIR$/DEF-Garage-Service/pom.xml" />
         <option value="$PROJECT_DIR$/ABC-Garage-Caller/pom.xml" />
+        <option value="$PROJECT_DIR$/Futa-Partner/Futa-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Futa-Partner/Futa-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/pom.xml" />
       </list>
     </option>
   </component>

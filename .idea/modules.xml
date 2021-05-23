@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ABC-Garage-Caller/ABC-Garage-Caller.iml" filepath="$PROJECT_DIR$/ABC-Garage-Caller/ABC-Garage-Caller.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ABC-Garage-Service/ABC-Garage-Service.iml" filepath="$PROJECT_DIR$/ABC-Garage-Service/ABC-Garage-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/DEF-Garage-Caller/DEF-Garage-Caller.iml" filepath="$PROJECT_DIR$/DEF-Garage-Caller/DEF-Garage-Caller.iml" />
       <module fileurl="file://$PROJECT_DIR$/DEF-Garage-Service/DEF-Garage-Service.iml" filepath="$PROJECT_DIR$/DEF-Garage-Service/DEF-Garage-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Gateway/Futa-Gateway.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/Futa-Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Service/Futa-Service.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Service/Futa-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/Search/Search.iml" filepath="$PROJECT_DIR$/Search/Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
