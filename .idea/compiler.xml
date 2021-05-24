@@ -6,38 +6,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DEF-Garage-Service" />
         <module name="Server" />
         <module name="Gateway" />
         <module name="Futa-Gateway" />
+        <module name="Vexere-Server" />
         <module name="Search" />
+        <module name="Vexere-Caller" />
+        <module name="Futa-Caller" />
         <module name="Futa-Server" />
-        <module name="DEF-Garage-Caller" />
-        <module name="ABC-Garage-Caller" />
+        <module name="Vexere-Gateway" />
         <module name="Futa-Service" />
+        <module name="Vexere-Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ABC-Garage-Caller" target="1.8" />
-      <module name="DEF-Garage-Caller" target="1.8" />
-      <module name="DEF-Garage-Service" target="1.8" />
+      <module name="Futa-Caller" target="1.8" />
       <module name="Futa-Gateway" target="1.5" />
       <module name="Futa-Server" target="1.5" />
       <module name="Futa-Service" target="1.8" />
       <module name="Gateway" target="1.8" />
       <module name="Search" target="1.8" />
       <module name="Server" target="1.8" />
+      <module name="Vexere-Caller" target="1.8" />
+      <module name="Vexere-Gateway" target="1.8" />
+      <module name="Vexere-Server" target="1.8" />
+      <module name="Vexere-Service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ABC-Garage-Caller" options="-parameters" />
-      <module name="DEF-Garage-Caller" options="-parameters" />
-      <module name="DEF-Garage-Service" options="-parameters" />
+      <module name="Futa-Caller" options="-parameters" />
       <module name="Futa-Service" options="-parameters" />
       <module name="Gateway" options="-parameters" />
       <module name="Search" options="-parameters" />
       <module name="Server" options="-parameters" />
+      <module name="Vexere-Caller" options="-parameters" />
+      <module name="Vexere-Gateway" options="-parameters" />
+      <module name="Vexere-Server" options="-parameters" />
+      <module name="Vexere-Service" options="-parameters" />
     </option>
   </component>
 </project>

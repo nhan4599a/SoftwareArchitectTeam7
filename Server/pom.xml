@@ -11,8 +11,6 @@
     <groupId>vlu.architect.team7</groupId>
     <artifactId>Server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Server</name>
-    <description>Demo MSA project for Spring Boot with Eureka server</description>
 
     <properties>
         <java.version>1.8</java.version>

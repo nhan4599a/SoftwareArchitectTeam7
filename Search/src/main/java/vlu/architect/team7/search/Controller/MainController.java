@@ -39,13 +39,13 @@ public class MainController {
 
     @Async
     private CompletableFuture<List<BusTrainDTO>> callRest() {
-        String abcGarageResponse = restTemplate.getForObject("http://abc-garage-caller", String.class);
+        String abcGarageResponse = restTemplate.getForObject("http://futa-caller", String.class);
         return CompletableFuture.completedFuture(BusTrainDTO.createList(abcGarageResponse));
     }
 
     @Async
     private CompletableFuture<List<BusTrainDTO>> callSoap() {
-        String defGarageResponse = restTemplate.getForObject("http://def-garage-caller", String.class);
+        String defGarageResponse = restTemplate.getForObject("http://vexere-caller", String.class);
         return CompletableFuture.completedFuture(BusTrainDTO.createList(defGarageResponse));
     }
 }

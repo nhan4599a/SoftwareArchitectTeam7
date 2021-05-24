@@ -11,8 +11,6 @@
 	<groupId>vlu.architect.team7</groupId>
 	<artifactId>Search</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gallery service</name>
-	<description>Demo MSA project for Spring Boot with Eureka Client</description>
 
 	<properties>
 		<java.version>1.8</java.version>

@@ -11,8 +11,6 @@
     <groupId>vlu.architect.team7</groupId>
     <artifactId>Gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Gateway</name>
-    <description>Demo MAS project for Spring Boot with Zuul and Eureka</description>
 
     <properties>
         <java.version>1.8</java.version>

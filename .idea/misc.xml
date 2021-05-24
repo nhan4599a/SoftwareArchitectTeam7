@@ -13,6 +13,11 @@
         <option value="$PROJECT_DIR$/Futa-Partner/Futa-Service/pom.xml" />
         <option value="$PROJECT_DIR$/Futa-Partner/Futa-Server/pom.xml" />
         <option value="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Futa-Caller/pom.xml" />
+        <option value="$PROJECT_DIR$/Vexere-Caller/pom.xml" />
       </list>
     </option>
   </component>

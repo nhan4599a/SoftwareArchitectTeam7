@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ABC-Garage-Caller/ABC-Garage-Caller.iml" filepath="$PROJECT_DIR$/ABC-Garage-Caller/ABC-Garage-Caller.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DEF-Garage-Caller/DEF-Garage-Caller.iml" filepath="$PROJECT_DIR$/DEF-Garage-Caller/DEF-Garage-Caller.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DEF-Garage-Service/DEF-Garage-Service.iml" filepath="$PROJECT_DIR$/DEF-Garage-Service/DEF-Garage-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Futa-Caller/Futa-Caller.iml" filepath="$PROJECT_DIR$/Futa-Caller/Futa-Caller.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Gateway/Futa-Gateway.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/Futa-Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Service/Futa-Service.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Service/Futa-Service.iml" />
@@ -12,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/Search/Search.iml" filepath="$PROJECT_DIR$/Search/Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SoftwareArchitect.iml" filepath="$PROJECT_DIR$/.idea/SoftwareArchitect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vexere-Caller/Vexere-Caller.iml" filepath="$PROJECT_DIR$/Vexere-Caller/Vexere-Caller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/Vexere-Gateway.iml" filepath="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/Vexere-Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vexere-Partner/Vexere-Server/Vexere-Server.iml" filepath="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/Vexere-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vexere-Partner/Vexere-Service/Vexere-Service.iml" filepath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/Vexere-Service.iml" />
     </modules>
   </component>
 </project>
