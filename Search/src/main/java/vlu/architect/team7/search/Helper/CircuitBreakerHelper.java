@@ -14,13 +14,15 @@ public final class CircuitBreakerHelper {
         Method method = ReflectionHelper.getMethod(clazz, functionName);
         String itemName = method.getDeclaringClass().getTypeName() + "." + method.getName();
         try {
-            if (openedCircuit.containsKey(itemName) && !openedCircuit.get(itemName).isTimedOut()) {
-                return defaultReturnValue;
-            } else {
-                if (!method.isAccessible())
-                    method.setAccessible(true);
-                return method.invoke(instance, parameters);
+            if (openedCircuit.containsKey(itemName)) {
+                if (openedCircuit.get(itemName).isTimedOut())
+                    openedCircuit.remove(itemName);
+                else
+                    return defaultReturnValue;
             }
+            if (!method.isAccessible())
+                method.setAccessible(true);
+            return method.invoke(instance, parameters);
         } catch (InvocationTargetException e) {
             e.printStackTrace();
             CircuitItem item = new CircuitItem();

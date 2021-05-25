@@ -8,9 +8,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class AbcGarageCallerApplication {
+public class FutaCallerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AbcGarageCallerApplication.class, args);
+        SpringApplication.run(FutaCallerApplication.class, args);
     }
 }
 

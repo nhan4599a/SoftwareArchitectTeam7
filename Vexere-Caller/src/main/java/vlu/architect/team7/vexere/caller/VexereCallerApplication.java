@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class DefGarageCallerApplication {
+public class VexereCallerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DefGarageCallerApplication.class, args);
+        SpringApplication.run(VexereCallerApplication.class, args);
     }
 }
 

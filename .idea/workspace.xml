@@ -5,76 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f39a6740-8fac-4a1b-ae1b-3bf241b0bfb6" name="Default Changelist" comment="added CircuitBreaker for searching-service using pure java">
-      <change afterPath="$PROJECT_DIR$/Vexere-Caller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/Controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/DTO/BusTrainDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/Helper/SoapApiCaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/VexereCallerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Caller/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/Vexere-Gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/src/main/java/vlu/architect/team7/vexere/gateway/VexereGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/Vexere-Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/Vexere-Service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_soap_javax_xml_soap_api_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/src/main/java/vlu/architect/team7/vexere/server/VexereServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC-Garage-Caller/ABC-Garage-Caller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/Futa-Caller.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC-Garage-Caller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC-Garage-Caller/src/main/java/vlu/architect/team7/abc_garage_caller/AbcGarageCallerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/src/main/java/vlu/architect/team7/futa/caller/FutaCallerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC-Garage-Caller/src/main/java/vlu/architect/team7/abc_garage_caller/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/src/main/java/vlu/architect/team7/futa/caller/Controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC-Garage-Caller/src/main/java/vlu/architect/team7/abc_garage_caller/Helper/RestApiCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/src/main/java/vlu/architect/team7/futa/caller/Helper/RestApiCaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC-Garage-Caller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Caller/DEF-Garage-Caller.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Caller/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Caller/src/main/java/vlu/architect/team7/def_garage_caller/Controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Caller/src/main/java/vlu/architect/team7/def_garage_caller/DTO/BusTrainDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Caller/src/main/java/vlu/architect/team7/def_garage_caller/DefGarageCallerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Caller/src/main/java/vlu/architect/team7/def_garage_caller/Helper/SoapApiCaller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Caller/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/DEF-Garage-Service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Caller/Vexere-Caller.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/DAO/BusSeatDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/DAO/BusSeatDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/DAO/BusTrainDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/DAO/BusTrainDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/DAO/PlaceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/DAO/PlaceDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/DefGarageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/VexereServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/Endpoint/BusTrainEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/Endpoint/BusTrainEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/Model/BusSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/Model/BusSeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/Model/BusTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/Model/BusTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/Model/CompositeBusSeatPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/Model/CompositeBusSeatPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/Model/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/java/vlu/architect/team7/vexere/service/Model/Place.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/soap/BusTrainDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/soap/FindAllBusTrainRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/soap/FindAllBusTrainResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/soap/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/java/vlu/architect/team7/def_garage/def_garage_service/soap/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEF-Garage-Service/src/main/resources/bus_train.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/resources/bus_train.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Futa-Partner/Futa-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Partner/Futa-Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Futa-Partner/Futa-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Partner/Futa-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Futa-Caller/src/main/java/vlu/architect/team7/futa/caller/FutaCallerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/src/main/java/vlu/architect/team7/futa/caller/FutaCallerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Futa-Partner/Futa-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Partner/Futa-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/src/main/java/vlu/architect/team7/search/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Search/src/main/java/vlu/architect/team7/search/Controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search/src/main/java/vlu/architect/team7/search/Helper/CircuitBreakerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Search/src/main/java/vlu/architect/team7/search/Helper/CircuitBreakerHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/VexereCallerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/VexereCallerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +48,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Vexere-Partner/Vexere-Service" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.13368982" />
     <property name="project.structure.side.proportion" value="0.21226993" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -130,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Vexere-Service">
+  <component name="RunManager" selected="Maven.Search">
     <configuration name="Futa-Caller" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -452,6 +390,18 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simplified abc/def garage service (remove gateway/server for each)&#10;fixed com.netflix.zuul.exception.ZuulException: hystrix-readed-time-out for the first time request to search service via gateway" />
