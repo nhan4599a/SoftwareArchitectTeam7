@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f39a6740-8fac-4a1b-ae1b-3bf241b0bfb6" name="Default Changelist" comment="added CircuitBreaker for searching-service using pure java">
-      <change afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/src/main/java/vlu/architect/team7/vexere/server/VexereServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f39a6740-8fac-4a1b-ae1b-3bf241b0bfb6" name="Default Changelist" comment="modified CircuitBreakerHelper for remove timed out items&#10;rename abc -&gt; futa, def -&gt; vexere&#10;wrap futa to futa-partner&#10;wrap vexere to vexere-partner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Futa-Caller/src/main/java/vlu/architect/team7/futa/caller/FutaCallerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Caller/src/main/java/vlu/architect/team7/futa/caller/FutaCallerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Futa-Partner/Futa-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Futa-Partner/Futa-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/src/main/java/vlu/architect/team7/search/Helper/CircuitBreakerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Search/src/main/java/vlu/architect/team7/search/Helper/CircuitBreakerHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/VexereCallerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Caller/src/main/java/vlu/architect/team7/vexere/caller/VexereCallerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -388,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621746661001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modified CircuitBreakerHelper for remove timed out items&#10;rename abc -&gt; futa, def -&gt; vexere&#10;wrap futa to futa-partner&#10;wrap vexere to vexere-partner">
+      <created>1621986396903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621986396903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +408,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simplified abc/def garage service (remove gateway/server for each)&#10;fixed com.netflix.zuul.exception.ZuulException: hystrix-readed-time-out for the first time request to search service via gateway" />
     <MESSAGE value="added CircuitBreaker for searching-service using pure java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CircuitBreaker for searching-service using pure java" />
+    <MESSAGE value="modified CircuitBreakerHelper for remove timed out items&#10;rename abc -&gt; futa, def -&gt; vexere&#10;wrap futa to futa-partner&#10;wrap vexere to vexere-partner" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified CircuitBreakerHelper for remove timed out items&#10;rename abc -&gt; futa, def -&gt; vexere&#10;wrap futa to futa-partner&#10;wrap vexere to vexere-partner" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftwareArchitect$Startup.ic" NAME="Startup Coverage Results" MODIFIED="1621659026616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
