@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-
 @SuppressWarnings("all")
 @RestController
 public class MainController {
@@ -47,5 +46,13 @@ public class MainController {
     private CompletableFuture<List<BusTrainDTO>> callSoap() {
         String defGarageResponse = restTemplate.getForObject("http://vexere-caller", String.class);
         return CompletableFuture.completedFuture(BusTrainDTO.createList(defGarageResponse));
+    }
+
+    private List<BusTrainDTO> getFromCache() {
+        return restTemplate.getForObject("http://cache-handler", List.class);
+    }
+
+    private void addToCache(List<BusTrainDTO> items) {
+        restTemplate.postForLocation("http://cache-handler", items);
     }
 }

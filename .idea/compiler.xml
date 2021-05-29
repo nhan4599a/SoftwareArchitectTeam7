@@ -16,11 +16,13 @@
         <module name="Futa-Server" />
         <module name="Vexere-Gateway" />
         <module name="Futa-Service" />
+        <module name="CacheHandler" />
         <module name="Vexere-Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ABC-Garage-Caller" target="1.8" />
+      <module name="CacheHandler" target="1.8" />
       <module name="Futa-Caller" target="1.8" />
       <module name="Futa-Gateway" target="1.5" />
       <module name="Futa-Server" target="1.5" />
@@ -37,6 +39,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ABC-Garage-Caller" options="-parameters" />
+      <module name="CacheHandler" options="-parameters" />
       <module name="Futa-Caller" options="-parameters" />
       <module name="Futa-Service" options="-parameters" />
       <module name="Gateway" options="-parameters" />

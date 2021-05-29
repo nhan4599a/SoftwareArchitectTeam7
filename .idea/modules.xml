@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CacheHandler/CacheHandler.iml" filepath="$PROJECT_DIR$/CacheHandler/CacheHandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futa-Caller/Futa-Caller.iml" filepath="$PROJECT_DIR$/Futa-Caller/Futa-Caller.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Gateway/Futa-Gateway.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/Futa-Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" />

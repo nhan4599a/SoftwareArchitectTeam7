@@ -17,9 +17,10 @@ public class MainController {
     private BusTrainDAO busTrainDAO;
 
     @RequestMapping("/")
-    public List<BusTrainDTO> findAll() {
+    public List<BusTrainDTO> findAll() throws InterruptedException {
         List<BusTrain> trains = new ArrayList<>();
         busTrainDAO.findAll().forEach(trains::add);
+        Thread.sleep(5000);
         return BusTrainDTO.create(trains);
     }
 }
