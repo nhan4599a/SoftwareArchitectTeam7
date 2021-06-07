@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Server/Futa-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futa-Partner/Futa-Service/Futa-Service.iml" filepath="$PROJECT_DIR$/Futa-Partner/Futa-Service/Futa-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Helper/Helper.iml" filepath="$PROJECT_DIR$/Helper/Helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinimumCostTicket/MinimumCostTicket.iml" filepath="$PROJECT_DIR$/MinimumCostTicket/MinimumCostTicket.iml" />
       <module fileurl="file://$PROJECT_DIR$/Search/Search.iml" filepath="$PROJECT_DIR$/Search/Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SoftwareArchitect.iml" filepath="$PROJECT_DIR$/.idea/SoftwareArchitect.iml" />

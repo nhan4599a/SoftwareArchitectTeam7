@@ -14,13 +14,3 @@ public class VexereCallerApplication {
         SpringApplication.run(VexereCallerApplication.class, args);
     }
 }
-
-@Configuration
-class RestTemplateConfig {
-
-    @Bean
-    @LoadBalanced
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-}

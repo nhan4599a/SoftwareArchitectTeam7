@@ -1,0 +1,29 @@
+
+spring:
+  application:
+    name: futa-caller
+
+server:
+  port: 8003
+
+info:
+  app:
+    name: futa-caller
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka
+    healthcheck:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - mappings
+          - env
+          - health
+          - info

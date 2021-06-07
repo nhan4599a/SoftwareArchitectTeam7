@@ -1,9 +1,10 @@
 package vlu.architect.team7.vexere.caller.Controller;
 
+import DTO.BusTrainDTO;
+import DTO.PlaceItemDTO;
+import Network.SoapApiCaller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import vlu.architect.team7.vexere.caller.DTO.BusTrainDTO;
-import vlu.architect.team7.vexere.caller.Helper.SoapApiCaller;
 
 import javax.xml.soap.SOAPException;
 import java.util.HashMap;
@@ -12,13 +13,21 @@ import java.util.List;
 @RestController
 public class MainController {
 
-    private static final String NAMESPACE = "http://architect.vlu/team7/vexere/service/soap";
+    private static final String NAMESPACE = "http://architect.vlu/team7/partner/vexere/service/soap";
+    private final SoapApiCaller caller = SoapApiCaller.getInstance(
+            "http://localhost:8201/", NAMESPACE);
 
-    @RequestMapping("/")
-    public List<BusTrainDTO> main() throws SOAPException {
-        SoapApiCaller caller = new SoapApiCaller("http://localhost:8201/", "FindAllBusTrainRequest", NAMESPACE);
+    @RequestMapping("/trains")
+    public List<BusTrainDTO> getBusTrains() throws SOAPException {
         HashMap<String, String> parameters = new HashMap<>();
         parameters.put("keyword", "something");
-        return caller.call(parameters);
+        return BusTrainDTO.createFromSoapMessage(caller.call("FindAllBusTrainRequest", parameters));
+    }
+
+    @RequestMapping("/places")
+    public List<PlaceItemDTO> getAvailablePlaces() throws SOAPException {
+        HashMap<String, String> parameters = new HashMap<>();
+        parameters.put("ignore", "ignore");
+        return PlaceItemDTO.createFromSoapMessage(caller.call("FindAllPlacesRequest", parameters));
     }
 }

@@ -1,0 +1,29 @@
+
+spring:
+  application:
+    name: vexere-caller
+
+server:
+  port: 8004
+
+info:
+  app:
+    name: vexere-caller
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka
+    healthcheck:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - mappings
+          - env
+          - health
+          - info

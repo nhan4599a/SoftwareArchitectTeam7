@@ -1,0 +1,51 @@
+server:
+  port: 8101
+
+spring:
+  application:
+    name: futa-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: futa-service
+          uri: lb://futa-service
+          predicates:
+            - Path=/futa/**
+          filters:
+            - StripPrefix=1
+        - id: registry
+          uri: lb://registry
+          predicates:
+            - Path=/registry/**
+          filters:
+            - StripPrefix=1
+        - id: eureka
+          uri: lb://registry
+          predicates:
+            - Path=/eureka/**
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+
+info:
+  app:
+    name: futa-gateway
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka
+    healthcheck:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - mappings
+          - env
+          - health
+          - info

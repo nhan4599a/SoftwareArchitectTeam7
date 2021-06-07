@@ -7,42 +7,60 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Server" />
-        <module name="Gateway" />
         <module name="Futa-Gateway" />
-        <module name="Vexere-Server" />
-        <module name="Search" />
         <module name="Vexere-Caller" />
+        <module name="Vexere-Gateway" />
+        <module name="Vexere-Service" />
+        <module name="Helper" />
+        <module name="Gateway" />
+        <module name="Vexere-Server" />
+        <module name="MinimumCostTicket" />
+        <module name="Search" />
         <module name="Futa-Caller" />
         <module name="Futa-Server" />
-        <module name="Vexere-Gateway" />
         <module name="Futa-Service" />
         <module name="CacheHandler" />
-        <module name="Vexere-Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ABC-Garage-Caller" target="1.8" />
-      <module name="CacheHandler" target="1.8" />
+      <module name="Cache" target="8" />
+      <module name="CacheHandler" target="8" />
       <module name="Futa-Caller" target="1.8" />
-      <module name="Futa-Gateway" target="1.5" />
-      <module name="Futa-Server" target="1.5" />
+      <module name="Futa-Gateway" target="1.6" />
+      <module name="Futa-Server" target="1.6" />
       <module name="Futa-Service" target="1.8" />
       <module name="Gateway" target="1.8" />
+      <module name="Helper" target="1.8" />
+      <module name="MinimumCostTicket" target="1.8" />
       <module name="Search" target="1.8" />
       <module name="Server" target="1.8" />
       <module name="Vexere-Caller" target="1.8" />
       <module name="Vexere-Gateway" target="1.8" />
       <module name="Vexere-Server" target="1.8" />
       <module name="Vexere-Service" target="1.8" />
+      <module name="wrapper" target="1.5" />
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (10)" target="1.5" />
+      <module name="wrapper (11)" target="1.5" />
+      <module name="wrapper (12)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
+      <module name="wrapper (3)" target="1.5" />
+      <module name="wrapper (4)" target="1.5" />
+      <module name="wrapper (5)" target="1.5" />
+      <module name="wrapper (6)" target="1.5" />
+      <module name="wrapper (7)" target="1.5" />
+      <module name="wrapper (8)" target="1.5" />
+      <module name="wrapper (9)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ABC-Garage-Caller" options="-parameters" />
+      <module name="Cache" options="-parameters" />
       <module name="CacheHandler" options="-parameters" />
       <module name="Futa-Caller" options="-parameters" />
       <module name="Futa-Service" options="-parameters" />
       <module name="Gateway" options="-parameters" />
+      <module name="MinimumCostTicket" options="-parameters" />
       <module name="Search" options="-parameters" />
       <module name="Server" options="-parameters" />
       <module name="Vexere-Caller" options="-parameters" />

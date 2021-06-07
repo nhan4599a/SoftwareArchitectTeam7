@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://architect.vlu/team7/partner/vexere/service/soap"
+           targetNamespace="http://architect.vlu/team7/partner/vexere/service/soap"
+           elementFormDefault="qualified">
+    <xs:element name="FindAllBusTrainRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="keyword" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FindAllBusTrainResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="busTrainDTO" type="tns:BusTrainDTO" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="BusTrainDTO">
+        <xs:sequence>
+            <xs:element name="licensePlate" type="xs:string"/>
+            <xs:element name="departureTime" type="xs:string"/>
+            <xs:element name="startPlace" type="xs:string"/>
+            <xs:element name="targetPlace" type="xs:string"/>
+            <xs:element name="cost" type="xs:string"/>
+            <xs:element name="seats" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="FindAllPlacesRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ignore" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FindAllPLacesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="placeItemDTO" type="tns:PlaceItemDTO" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="PlaceItemDTO">
+        <xs:sequence>
+            <xs:element name="startPlace" type="xs:string"/>
+            <xs:element name="targetPlace" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

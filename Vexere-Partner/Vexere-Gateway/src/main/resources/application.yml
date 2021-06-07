@@ -1,0 +1,51 @@
+server:
+  port: 8201
+
+spring:
+  application:
+    name: vexere-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: vexere-service
+          uri: lb://vexere-service
+          predicates:
+            - Path=/**
+          filters:
+            - StripPrefix=1
+        - id: registry
+          uri: lb://registry
+          predicates:
+            - Path=/registry/**
+          filters:
+            - StripPrefix=1
+        - id: eureka
+          uri: lb://registry
+          predicates:
+            - Path=/eureka/**
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+
+info:
+  app:
+    name: futa-gateway
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8200/eureka
+    healthcheck:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - mappings
+          - env
+          - health
+          - info

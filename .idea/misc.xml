@@ -3,24 +3,26 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Search/pom.xml" />
         <option value="$PROJECT_DIR$/Server/pom.xml" />
         <option value="$PROJECT_DIR$/Gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/DEF-Garage-Caller/pom.xml" />
-        <option value="$PROJECT_DIR$/ABC-Garage-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/DEF-Garage-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/ABC-Garage-Caller/pom.xml" />
-        <option value="$PROJECT_DIR$/Futa-Partner/Futa-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Futa-Caller/pom.xml" />
         <option value="$PROJECT_DIR$/Futa-Partner/Futa-Server/pom.xml" />
         <option value="$PROJECT_DIR$/Futa-Partner/Futa-Gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/pom.xml" />
-        <option value="$PROJECT_DIR$/Futa-Caller/pom.xml" />
+        <option value="$PROJECT_DIR$/Futa-Partner/Futa-Service/pom.xml" />
         <option value="$PROJECT_DIR$/Vexere-Caller/pom.xml" />
+        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Vexere-Partner/Vexere-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Search/pom.xml" />
+        <option value="$PROJECT_DIR$/Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/MinimumCostTicket/pom.xml" />
+        <option value="$PROJECT_DIR$/Helper/pom.xml" />
         <option value="$PROJECT_DIR$/CacheHandler/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
 </project>
