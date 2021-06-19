@@ -14,7 +14,7 @@ public class MainController {
     @GetMapping("/get/{key}")
     public String get(@PathVariable String key) {
         Object value = client.get(key);
-        return value == null ? null : value.toString();
+        return value == null ? "" : value.toString();
     }
 
     @PostMapping("/set")

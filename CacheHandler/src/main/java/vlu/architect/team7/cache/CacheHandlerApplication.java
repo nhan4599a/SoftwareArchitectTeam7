@@ -13,9 +13,9 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 
 @SpringBootApplication
-public class CacheApplication {
+public class CacheHandlerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CacheApplication.class, args);
+        SpringApplication.run(CacheHandlerApplication.class, args);
     }
 }
 

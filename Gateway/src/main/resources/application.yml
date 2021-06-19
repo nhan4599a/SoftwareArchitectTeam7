@@ -31,8 +31,8 @@ spring:
             - Path=/cache/**
           filters:
             - StripPrefix=1
-        - id: min-cost
-          uri: lb://minimum-cost-service
+        - id: minimum-cost
+          uri: lb://minimum-cost
           predicates:
             - Path=/min-cost/**
           filters:
